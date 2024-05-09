@@ -1,0 +1,613 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(60, 60, 60);
+}
+.text {
+  color: white;
+  font-size: 12px;
+  width: 104px;
+  font-family: sans-serif;
+}
+.infoMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.btn {
+  border: none;
+  border-radius: 30px;
+  width: 240px;
+  height: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.navbar{
+  position: relative;
+
+}
+
+.hamburger{
+  width: 50px;
+  position: absolute;
+  display: none;
+  margin: 10px;
+}
+
+.noneMenu{
+  position: absolute;
+  display: none;
+  background-color:red;
+  width: 300px;
+  height: 300px;
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+border: 1px solid rgba(255, 255, 255, 0.06);
+}
+/* .noneMenuFlex{
+  display: block;
+} */
+
+.exitIcon{
+  width: 50px;
+  margin: 10px;
+}
+.noneText{
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+   padding:  5px;
+}
+.navbarMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  padding: 15px;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  font-family: sans-serif;
+  font-size: 12px;
+  
+}
+
+
+
+.heading {
+  background-image: url(./image/Rectangle\ 5.png);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 120px 0;
+}
+.header {
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  width: 782px;
+  margin-bottom: 30px;
+}
+
+.bio {
+  color: white;
+  width: 745px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.btn-2 {
+  margin-top: 50px;
+  border: none;
+  width: 240px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #e05100;
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.sectionCatolog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.textCatolog {
+  font-size: 35px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.all-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 80px 0 0 0;
+  gap: 30px;
+}
+
+.products {
+  width: 240px;
+  height: 264px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  position: relative;
+  top: 60px;
+}
+
+.productName {
+  position: relative;
+  bottom: 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.sectionMaster {
+  display: flex;
+
+  align-items: center;
+  background-color: rgb(60, 60, 60);
+}
+
+.carMaster {
+  border-radius: 0px 30px 30px 0px;
+}
+
+.textMaster {
+  padding: 0 80px;
+}
+
+.headerMaster {
+  margin-bottom: 100px;
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.infoMaster {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.infoText {
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.productsInfo {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.productHeader {
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+.productImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sectionVideo {
+  background-color: rgb(60, 60, 60);
+  padding: 80px 100px;
+}
+
+.headerSection {
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.infoVideo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.allVideo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.textVideo {
+  background-color: white;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+.detailVideo {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  width: 238px;
+}
+.rockSection {
+  display: flex;
+  padding: 90px 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rockHeader {
+  font-size: 35px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.rockText {
+  font-size: 12px;
+  font-family: sans-serif;
+  width: 1048px;
+  text-align: center;
+  margin-bottom: 80px;
+  color: #000000;
+}
+.rockDiv {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sectionDetail {
+  background-color: rgb(60, 60, 60);
+  padding: 100px 160px;
+}
+.infoDetail {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: sans-serif;
+}
+.allImageDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.imageDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 330px;
+  height: 323px;
+  background-color: white;
+  border-radius: 30px;
+}
+.headerDetail {
+  width: 272px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.textDetail {
+  width: 272px;
+  font-family: sans-serif;
+}
+.sectionFooter {
+  display: flex;
+  justify-content: center;
+  gap: 25rem;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  flex-wrap: wrap;
+}
+.shop {
+  color: red;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.shopText {
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.textClock {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.shopNumber {
+  font-size: 12px;
+  font-family: sans-serif;
+  width: 109px;
+}
+.catalog {
+  color: red;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.catalogText {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.service {
+  color: red;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.serviceText {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.campaign {
+  font-family: sans-serif;
+  color: red;
+  margin-bottom: 20px;
+}
+.campaignText {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.footerMenu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  width: 100%;
+}
+@media only screen and (max-width: 1291px) {
+  .sectionFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .infoText {
+    font-size: 10px;
+  }
+  .infoMaster {
+    font-size: 13px;
+  }
+  .headerMaster {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1191px) {
+  .rockText {
+    font-size: 10px;
+    width: 700px;
+  }
+  .rockHeader {
+    margin-bottom: 60px;
+  }
+  .video {
+    width: 500px;
+  }
+  .infoVideo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .textMaster {
+    padding: 0;
+  }
+  .carMaster {
+    width: 450px;
+    height: 450px;
+  }
+  .sectionMaster {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .info{
+    display: none;
+  }
+.hamburger{
+  display: block;
+}
+.noneMenuFlex{
+  display: block;
+}
+
+  .navbarMenu {
+    display: none;
+  }
+  .header {
+    width: 300px;
+    font-size: 20px;
+  }
+  
+  .bio {
+    width: 350px;
+    font-size: 7px;
+  }
+  .btn-2 {
+    width: 180px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .textCatolog {
+    font-size: 19px;
+  }
+  .products {
+    width: 200px;
+    height: 210px;
+  }
+  .image {
+    position: relative;
+    top: 20px;
+  }
+  .carMaster {
+    width: 200px;
+    height: 200px;
+  }
+  .headerMaster {
+    text-align: center;
+  }
+  .infoMaster {
+    font-size: 14px;
+  }
+  .infoText {
+    font-size: 8px;
+  }
+  .headerMaster {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .detailImage {
+    width: 250px;
+    height: 200px;
+  }
+  .headerSection {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .textVideo {
+    display: none;
+  }
+  .textIcon {
+    width: 40px;
+  }
+  .detailVideo {
+    font-size: 8px;
+  }
+  .video {
+    width: 200px;
+  }
+  .rockText {
+    font-size: 8px;
+    width: 200px;
+  }
+  .rockImage {
+    width: 200px;
+  }
+  .sectionDetail {
+    padding: 60px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .infoDetail {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .imageDetail {
+    width: 190px;
+    height: 200px;
+  }
+  .headerDetail {
+    font-size: 14px;
+    width: 150px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+  }
+  .textDetail {
+    width: 150px;
+    font-size: 8px;
+  }
+  .advantageImage {
+    width: 50px;
+  }
+  .second {
+    gap: 3rem;
+  }
+  .footerMenu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn {
+    width: 150px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .hamburger{
+    width: 30px;
+  }
+.exitIcon{
+  width: 30px;
+}
+.noneMenu{
+  width: 200px;
+  height: 200px;
+}
+.noneText{
+  font-size: 12px;
+}
+  .productHeader {
+    font-size: 20px;
+  }
+  .headerDetail {
+    font-size: 12px;
+    width: 130px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+  }
+  .textDetail {
+    width: 130px;
+    font-size: 6px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .bio {
+    width: 300px;
+    font-size: 6px;
+  }
+}
